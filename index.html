@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- main file -->
+    <link rel="stylesheet" href="css/master.css">
+    <!-- normalize css --> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font aswome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google fonts -->  
+    <!-- link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Style+Script&display=swap">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Special Design</title>
+</head>
+<body>
+    <!-- strat setting box -->
+    <div class="settings-box">
+        <div class="toggel-setting">
+            <i class="fa fa-cog fa-spin"></i>
+        </div>
+    <div class="settings-container">
+        <div class="option-box">
+            <h4>Colors</h4>
+            <ul class="color-list">
+                <li class="active" data-color="#ff9800"></li>
+                <li data-color="#e91e63"></li>
+                <li data-color="#009688"></li>
+                <li data-color="#03a9f4"></li>
+                <li data-color="#4caf50"></li>
+            </ul>
+        </div>
+        <div class="option-box">
+            <h4>random background</h4 >
+                <div class="random-background">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+        </div>
+        <div class="option-box">
+            <h4>Show Bullet</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="yes">Yes</span>
+                    <span class="no" data-display="no">No</span>
+                </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+    </div>
+    </div>
+    <!-- end setting box -->
+    <!-- strat nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet"  data-section=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Places Rate</div>
+        </div>
+        <div class="bullet" data-section=".gallary">
+            <div class="tooltip">Our Gallary</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Our Featureas</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+    </div>
+    <!-- end nav bullets -->
+    <!-- start landing page --> <!--search about landing tembelt insperation -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo" data-text="Special">Special <span>Design</span></div>
+                <div class="links-container">
+                    <ul>
+                        <li ><a class="active" data-section=".about-us" href="#">About</a></li>
+                        <li><a data-section=".skills" href="#">places rate</a></li>
+                        <li><a data-section=".gallary" href="#">gallary</a></li>
+                        <li><a data-section=".timeline" href="#">timeline</a></li>
+                        <li><a data-section=".features" href="#">Featureas</a></li>
+                        <li><a data-section=".testimonials" href="#">testimonials</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+                <div class="introdection-text">
+                    <h1>We Are <span>Creative</span> Agency</h1>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Veritatis modi accusantium, nulla sit quod cumque animi ducimus.
+                    </p>
+                </div>
+    </div>
+    <!-- end landing page -->
+    <!-- start about us -->
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Voluptas eaque ea maiores qui laboriosam expedita libero quo provident,
+                sit eligendi, molestias recusandae hic consequuntur cum in! Blanditiis repellendus eos fugit.</p>
+            </div>
+            <div class="img-box">
+                <img src="img/bant.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end about us -->
+    <!-- strat our skills-->
+    <div class="skills">
+        <div class="container">
+            <h2>places rate</h2>
+            <div class="skill-box">
+                <div class="skill-name">Green Places</div>
+                <div class="skill-progress"><span data-progress="90%"></span></div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Beaches</div>   
+                <div class="skill-progress"><span data-progress="80%"></span></div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Mountains</div>   
+                <div class="skill-progress"><span data-progress="60%"></span></div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Amusement Park</div>   
+                <div class="skill-progress"><span data-progress="72%"></span></div>
+            </div>
+        </div>
+    </div>
+    <!-- strat our skills-->
+    <!-- strat our gallary -->
+    <div class="gallary">
+        <div class="container">
+            <h2>our gallary</h2>
+            <div class="images-box">
+                <img src="img/greenpalce.png" alt="Jungle">
+                <img src="img/day-night-flat-vector-mountain-landscape-with-moon-sun-clouds-sky-vector-concept-weather-app-landscape-nature-day-night-illustration_53562-6235.png" alt="Mountains">
+                <img src="img/plant1.png" alt="vallage">
+                <img src="img/plant2.png" alt="the good and old food">
+                <img src="img/plant3.png" class="five" alt="simple palces awy of the noise of cites">
+                <img src="img/01.jpg" class="six" alt="">
+                <img src="img/02.jpg" alt="">
+                <img src="img/03.jpg" alt="">
+                <img src="img/04.jpg" alt="">
+                <img src="img/05.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end our gallary -->
+    <!-- strat time line  -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2021</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, 
+                            commodi id odit rerum molestias nobis dolorum nam sapiente totam accusantium,
+                            tempora similique debitis earum eos alias amet ea vitae delectus!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, 
+                            commodi id odit rerum molestias nobis dolorum nam sapiente totam accusantium,
+                            tempora similique debitis earum eos alias amet ea vitae delectus!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2020</div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, 
+                            commodi id odit rerum molestias nobis dolorum nam sapiente totam accusantium,
+                            tempora similique debitis earum eos alias amet ea vitae delectus!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, 
+                            commodi id odit rerum molestias nobis dolorum nam sapiente totam accusantium,
+                            tempora similique debitis earum eos alias amet ea vitae delectus!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end time line  -->
+    <!-- strat features -->
+    <div class="features">
+        <h2>Our Featureas</h2>
+        <div class="container">
+            <div class="faet-box">
+                <img src="img/Untitled-1.png" alt="">
+                <h4>development</h4>
+                <p>we are professinal engenging we will do anything u can image</p>
+            </div>
+            <div class="faet-box">
+                <img src="img/Untitled-3.png" alt="">
+                <h4>development</h4>
+                <p>we are professinal engenging we will do anything u can image</p>
+            </div>
+            <div class="faet-box">
+                <img src="img/Untitled-4.png" style="margin-bottom: 20px ;" alt="">
+                <h4>development</h4>
+                <p>we are professinal engenging we will do anything u can image</p>
+            </div>
+            <div class="faet-box">
+                <img src="img/Untitled-5.png" alt="">
+                <h4>development</h4>
+                <p>we are professinal engenging we will do anything u can image</p>
+            </div>
+            <div class="faet-box">
+                <img src="img/done.png" style="margin-bottom: 20px;" alt="">
+                <h4>development</h4>
+                <p>we are professinal engenging we will do anything u can image</p>
+            </div>
+            <div class="faet-box">
+                <img src="img/illustration-astronaut-cosmonaut-paying-skateboard-sport-space-with-astronaut-suit_27575-3.png" style="margin-bottom: 7px;" alt="">
+                <h4>development</h4>
+                <p>we are professinal engenging we will do anything u can image</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- end features -->
+    <!-- strat testimonials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>testimonials</h2>
+            <div class="ts-box">
+                <p>it was agreet flight evey things is ranged just like i am love</p>
+                <div class="preson-info">
+                    <img src="img/avatar-03.png" alt="">
+                    <h4>mina samy</h4>
+                    <p>CIO At company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>it was agreet flight evey things is ranged just like i am love</p>
+                <div class="preson-info">
+                    <img src="img/avatar-04.png" alt="">
+                    <h4>ahemd goda</h4>
+                    <p>CEA At company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>it was agreet flight evey things is ranged just like i am love</p>
+                <div class="preson-info">
+                    <img src="img/avatar-05.png" alt="">
+                    <h4>ziad hany</h4>
+                    <p>CAA At company</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!-- end testimonials -->
+    <!-- strat contact us -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="number" placeholder="Your Phone" name="userphone">
+                    <input type="email" placeholder="Your Email" name="useremail">
+                    <input type="text" placeholder="Your Quotation Sbject" name="userquotation">
+                </div>
+                <div class="right">
+                    <textarea name="massege" placeholder="Your Massage"></textarea>
+                    <input type="submit" value="send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end contact us -->
+    <!-- strat footer-->
+    <div class="footer">created by <span> mina samy </span> for web desienes
+        <div class="rights"><span>@</span> all rights reseved 2022</div>
+        <div class="icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-google-play"></i></a>
+            <a href="#"><i class="fab fa-apple"></i></a>
+        </div>
+    </div>
+    <!-- end footer-->
+    <script src="js/master.js"></script>
+</body>
+</html>
